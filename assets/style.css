@@ -1,0 +1,99 @@
+body {
+    background-color: #f0f0f1;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.page-title-action {
+    margin-left: 4px;
+    padding: 4px 8px;
+    position: relative;
+    top: -3px;
+    text-decoration: none;
+    border: 1px solid #2271b1;
+    border-radius: 2px;
+    text-shadow: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: normal;
+    color: #2271b1;
+    background: #f6f7f7;
+    cursor: pointer;
+}
+
+.mm-navbar {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.wp-core-ui .button-primary {
+    font-size: 15px;
+    padding: 0 20px;
+}
+
+.button-secondary {
+    background: rgb(34, 34, 34) !important;
+    border-color: rgb(56, 56, 56) !important;
+    color: #f0f0f1 !important;
+    padding: 1px 20px !important;
+    font-size: 15px !important;
+}
+
+.notice, div.error, div.updated {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.form-control {
+    height: auto;
+}
+
+.page-link {
+    padding: 4px 10px;
+}
+
+.pagination li {
+    margin-bottom: 0;
+}
+
+.page-item:first-child .page-link,
+.page-item:last-child .page-link {
+    border-radius: unset;
+}
+
+input[type=text] {
+    line-height: 1;
+}
+
+.mm-modal-wrapper {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: rgb(0 0 0 / 84%);
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    overflow-y: scroll;
+    display: none;
+}
+
+.mm-modal {
+    background: #fff;
+    max-width: 700px;
+    margin: 30px auto;
+    position: relative;
+}
+
+.mm-modal-close {
+    border: none;
+    outline: none !important;
+    font-weight: bold;
+    background: none;
+    font-size: 30px;
+    margin-top: -12px;
+    margin-right: -10px;
+    user-select: none;
+}
